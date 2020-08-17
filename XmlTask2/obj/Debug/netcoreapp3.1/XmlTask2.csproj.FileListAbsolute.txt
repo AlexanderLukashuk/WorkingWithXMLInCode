@@ -1,0 +1,10 @@
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlTask2/bin/Debug/netcoreapp3.1/XmlTask2.deps.json
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlTask2/bin/Debug/netcoreapp3.1/XmlTask2.runtimeconfig.json
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlTask2/bin/Debug/netcoreapp3.1/XmlTask2.runtimeconfig.dev.json
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlTask2/bin/Debug/netcoreapp3.1/XmlTask2.dll
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlTask2/bin/Debug/netcoreapp3.1/XmlTask2.pdb
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlTask2/obj/Debug/netcoreapp3.1/XmlTask2.csprojAssemblyReference.cache
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlTask2/obj/Debug/netcoreapp3.1/XmlTask2.AssemblyInfoInputs.cache
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlTask2/obj/Debug/netcoreapp3.1/XmlTask2.AssemblyInfo.cs
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlTask2/obj/Debug/netcoreapp3.1/XmlTask2.dll
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlTask2/obj/Debug/netcoreapp3.1/XmlTask2.pdb

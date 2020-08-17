@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Хабр</title>
+    <link>https://habr.com/ru/all//</link>
+    <description><![CDATA[]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Fri, 24 Jul 2020 15:15:35 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habr.com/images/logo.png</url>
+        <title>Хабр</title>
+      </image>
+
+    <item>
+      <title><![CDATA[MCMC-методы и коронавирус: часть первая, вступительная]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/510946/</guid>
+      <link>https://habr.com/ru/post/510946/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=510946</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/webt/yo/9f/yh/yo9fyhr196d8kmutnnpai0hlb2g.png"></div><br>
+Привет, коллеги! Сто лет не писал на Хабр, но вот время настало. Весной этого года я вёл курс «Advanced ML» в <a href="https://data.mail.ru/" rel="nofollow">Академии больших данных Mail.ru</a>; кажется, слушателям понравилось, и вот сейчас меня попросили написать не столько рекламный, сколько образовательный пост об одной из тем моего курса. Выбор был близок к очевидному: в качестве примера сложной вероятностной модели мы обсуждали крайне актуальную (казалось бы… но об этом позже) в наше время эпидемиологическую SIR-модель, которая моделирует распространение болезней в популяции. В ней есть всё: и приближённый вывод через марковские методы Монте-Карло, и скрытые марковские модели со стохастическим алгоритмом Витерби, и даже presence-only data.<br>
+<br>
+С этой темой вышло только одно небольшое затруднение: я начал было писать о том, что я собственно рассказывал и показывал на лекции… и как-то быстро и незаметно набралось страниц двадцать текста (ну ладно, с картинками и кодом), который всё ещё не был закончен и совершенно не был self-contained. А если рассказывать всё так, чтобы было понятно с «нуля» (не с абсолютного нуля, конечно), то можно было бы и сотню страниц написать. Так что когда-нибудь я их обязательно напишу, а сейчас пока представляю вашему вниманию первую часть описания SIR-модели, в которой мы сможем только поставить задачу и описать модель с её порождающей стороны &mdash; а если у уважаемой публики будет интерес, то можно будет и продолжить.<br> <a href="https://habr.com/ru/post/510946/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=510946#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 13:44:30 GMT</pubDate>
+      <dc:creator>snikolenko</dc:creator>
+      <category><![CDATA[Блог компании Mail.ru Group]]></category><category><![CDATA[Алгоритмы]]></category><category><![CDATA[Математика]]></category><category><![CDATA[Машинное обучение]]></category><category><![CDATA[Учебный процесс в IT]]></category>
+      <category><![CDATA[машинное обучение]]></category><category><![CDATA[вероятностная модель]]></category><category><![CDATA[эпидемиология]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+    <item>
+        <title><![CDATA[Веселье продолжается: шорт-лист конкурса хабрамемов]]></title>
+        <guid isPermaLink="true">https://habr.com/ru/post/512244/</guid>
+        <link>https://habr.com/ru/post/512244/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512244</link>
+        <description><![CDATA[Всем привет! 13 июля мы вместе с нашими друзьями из <a href="https://u.tmtm.ru/neomems_ruvds">RuVDS</a> запустили <a href="https://habr.com/ru/article/508466/">конкурс хабрамемов</a>: в комментариях обсудили особенности рекрутинга продакт-менеджеров, DevOps, применения Big Data в разных сферах и синтаксиса Python. Кто-то писал стихи, кто-то переосмысливал образ НЛО, ну а кто-то вдохновлялся средневековым искусством. Спасибо, мы вдоволь посмеялись и выделили 30 мемов — шуток, коллажей, комиксов и даже стихов — перетасовали их, чтобы не было преимущества у тех, кто скинул свой мем раньше, и представили на общее голосование. Итак, кто хочет посмеяться и оценить работы участников — просим под кат.
+ <a href="https://habr.com/ru/post/512244/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512244#habracut">Нужны мемы? Тогда тебе сюда.</a>]]></description>
+        
+        <pubDate>Fri, 24 Jul 2020 14:06:01 GMT</pubDate>
+        <dc:creator>megapost</dc:creator>
+        <category><![CDATA[Читальный зал]]></category><category><![CDATA[Habr]]></category><category><![CDATA[Управление сообществом]]></category>
+        <category><![CDATA[конкурс мемы]]></category><category><![CDATA[голосование]]></category>
+    </item>
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Vue.js для начинающих, урок 6: привязка классов и стилей]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/511602/</guid>
+      <link>https://habr.com/ru/post/511602/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=511602</link>
+      <description><![CDATA[Сегодня, в шестом уроке курса по Vue, мы поговорим о том, как динамически стилизовать HTML-элементы, привязывая данные к их атрибутам <code>style</code> и привязывая к элементам классы.<br>
+<br>
+<a href="https://habr.com/ru/company/ruvds/blog/511602/"><img src="https://habrastorage.org/webt/0k/bh/zc/0kbhzck6fodb9a8tr8mwyqowyxe.jpeg"></a><br>
+<br>
+→ <a href="https://habr.com/ru/company/ruvds/blog/509700/">Vue.js для начинающих, урок 1: экземпляр Vue</a><br>
+→ <a href="https://habr.com/ru/company/ruvds/blog/509702/">Vue.js для начинающих, урок 2: привязка атрибутов</a><br>
+→ <a href="https://habr.com/ru/company/ruvds/blog/510628/">Vue.js для начинающих, урок 3: условный рендеринг</a><br>
+→ <a href="https://habr.com/ru/company/ruvds/blog/510898/">Vue.js для начинающих, урок 4: рендеринг списков</a><br>
+→ <a href="https://habr.com/ru/company/ruvds/blog/511600/">Vue.js для начинающих, урок 5: обработка событий</a><br> <a href="https://habr.com/ru/post/511602/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=511602#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 13:16:06 GMT</pubDate>
+      <dc:creator>ru_vds</dc:creator>
+      <category><![CDATA[Блог компании RUVDS.com]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[JavaScript]]></category><category><![CDATA[VueJS]]></category>
+      <category>Vue</category><category>разработка</category><category>фреймворк</category><category>javascript</category><category>vue.js</category><category>обучение</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Мониторинг систем, оборудованных АКБ на примере поломоечной машины]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512184/</guid>
+      <link>https://habr.com/ru/post/512184/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512184</link>
+      <description><![CDATA[С 24/10/2018 по 26/10/2018 производилась диагностика электронной бортовой системы и аккумуляторных батарей полотера с помощью ABLogger. Тип аккумуляторных батарей (2 штуки), установленных на данном полотере: hoppecke 60 Aч (С5) номинальным напряжением 12 В. АКБ включены последовательно.<br>
+<br>
+Стоит сказать, что штатно должны быть установлены АКБ hoppecke, но емкостью 80 Aч (С5). <br>
+<br>
+<img src="https://habrastorage.org/webt/tn/fg/vp/tnfgvp88xzd2owu99ttgfyaotca.png"><br>
+<br>
+Полотер оснащен встроенным зарядным устройством.<br>
+<br>
+Чтобы посмотреть, в каком режиме полотер РЕАЛЬНО эксплуатируется, мы установили прибор мониторинга для систем, оборудованных АКБ – ABLogger.<br>
+<br>
+<img src="https://habrastorage.org/webt/qn/ld/yk/qnldyk0khwe3mofikwirgkfal6c.png"><br>
+<br>
+ABLogger – это прибор, измеряющий напряжение на АКБ и токи потребления/заряда. Измеренные значения с метками реального времени сохраняются в память устройства. По окончанию мониторинга прибор нужно синхронизировать с ПК, чтобы оценить результаты мониторинга в виде графиков тока и напряжения.<br>
+<br>
+Графики изменения тока и напряжения во времени дают полное представление о работе ЛЮБЫХ транспортных средств или систем, оснащенных АКБ. <a href="https://habr.com/ru/post/512184/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512184#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 07:30:27 GMT</pubDate>
+      <dc:creator>Heraklion</dc:creator>
+      <category><![CDATA[Энергия и элементы питания]]></category>
+      <category><![CDATA[Акб]]></category><category><![CDATA[обслуживание акб]]></category><category><![CDATA[полотер]]></category><category><![CDATA[аккумуляторная батарея]]></category><category><![CDATA[поломоечная машина]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Китайцы анонсировали 64-ядерный процессор Tengyun S2500 для высокопроизводительных вычислений]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512308/</guid>
+      <link>https://habr.com/ru/post/512308/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512308</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/getpro/habr/post_images/d81/bb5/8d9/d81bb58d9b75f2c6ed61f4efd0f7d452.png" alt="image"></div><br>
+ <br>
+На днях компания Phytium <a href="https://cntechpost.com/2020/07/23/chinese-chip-designer-phytium-announces-server-cpus-based-on-16nm-process/" rel="nofollow">заявила</a> о скором появлении в продаже 64-ядерного чипа Tengyun S2500. Позиционируется он как процессор для высокопроизводительных вычислений.<br>
+ <br>
+Компания Phytium хорошо известна. Именно ее процессоры устанавливались в суперкомпьютеры Tiahne, которые долгое время были в лидерах <a href="https://www.top500.org/" rel="nofollow">списка самых мощных суперкомпьютеров мира</a>.<br> <a href="https://habr.com/ru/post/512308/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512308#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 13:05:04 GMT</pubDate>
+      <dc:creator>Seleditor</dc:creator>
+      <category><![CDATA[Блог компании Selectel]]></category><category><![CDATA[Высокая производительность]]></category><category><![CDATA[Компьютерное железо]]></category><category><![CDATA[Процессоры]]></category>
+      <category><![CDATA[процессоры]]></category><category><![CDATA[64 ядра]]></category><category><![CDATA[китай]]></category><category><![CDATA[Phytium]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Как Django может обрабатывать 100 миллионов запросов в день]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512366/</guid>
+      <link>https://habr.com/ru/post/512366/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512366</link>
+      <description><![CDATA[<p>Сегодня я буду писать о Django — фреймворке, который верно служит мне на протяжении последних пяти лет. Он помог мне преуспеть в разработке высоконагруженных решений, используемых сегодня миллионами пользователей.</p><br>
+<p>Действительно, Python не очень «быстрый» язык программирования, однако он прост, удобен и люди его любят. С точки зрения производительности, он не может быть таким же быстрым, как Go или Node.js, но это становится несущественным, если рассматривать современные инфраструктуры и модульную разработку.</p><br>
+<p>Поскольку я уже несколько лет варюсь в этом «котле разработки на Django», я пришел к нескольким ценным выводам, которыми собираюсь с вами поделиться.</p> <a href="https://habr.com/ru/post/512366/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512366#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 12:05:27 GMT</pubDate>
+      <dc:creator>kentavr009</dc:creator>
+      <category><![CDATA[Python]]></category><category><![CDATA[Django]]></category>
+      <category>django</category><category>python</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Хлопковая нить, биолюминесценция и смартфон: анализ крови на антитела за 5 минут]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/508572/</guid>
+      <link>https://habr.com/ru/post/508572/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=508572</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/or/p5/f9/orp5f9gkccyxy5a_j5r5i4iewlk.jpeg"><br>
+<br>
+Как нам всем известно, иммунная система человека работает по принципу адаптации, порождая определенные антитела к определенным «вредителям» в крови. Анализ наличия/отсутствия тех или иных антител может рассказать о наличии/отсутствии тех или иных заболеваний у человека. Однако не всегда факт наличия антител можно приравнять к наличию болезни, поскольку важную роль играет и их количество. Современные методы количественного определения антител достаточно сложны и, честно признаться, дорогостоящи. Потому ученые из Американского химического общества (ACS) решили изобрести свою методику выявления и подсчета антител в крови за счет биолюминесцентных белков-датчиков и камеры смартфона. Какие именно физико-химические процессы задействованы в работе устройства, насколько точны его результаты, и как может измениться диагностика заболеваний благодаря этой разработке? Об этом мы узнаем из доклада ученых. Поехали. <a href="https://habr.com/ru/post/508572/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=508572#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 07:25:08 GMT</pubDate>
+      <dc:creator>Dmytro_Kikot</dc:creator>
+      <category><![CDATA[Блог компании ua-hosting.company]]></category><category><![CDATA[Научно-популярное]]></category><category><![CDATA[Биотехнологии]]></category><category><![CDATA[Здоровье]]></category><category><![CDATA[Химия]]></category>
+      <category><![CDATA[грипп]]></category><category><![CDATA[вич]]></category><category><![CDATA[hiv]]></category><category><![CDATA[антитела]]></category><category><![CDATA[вирусы]]></category><category><![CDATA[диагностика]]></category><category><![CDATA[медицина]]></category><category><![CDATA[здоровье]]></category><category><![CDATA[смартфоны]]></category><category><![CDATA[биолюминесцентность]]></category><category><![CDATA[белки]]></category><category><![CDATA[анализ крови]]></category><category><![CDATA[кровь]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Анализ merge request'ов в GitLab с помощью PVS-Studio для C#]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512296/</guid>
+      <link>https://habr.com/ru/post/512296/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512296</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/getpro/habr/post_images/d7c/ae5/987/d7cae5987aa9787abd00f829cd2d0d55.png" alt="image1.png"></div><br>
+Любите GitLab и не любите ошибки? Хотите повысить качество исходного кода? Тогда вы попали по адресу. Сегодня мы расскажем, как настроить C# анализатор PVS-Studio для проверки merge request&#39;ов. Всем единорожного настроения и приятного чтения.<br> <a href="https://habr.com/ru/post/512296/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512296#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 07:13:32 GMT</pubDate>
+      <dc:creator>IchNikola</dc:creator>
+      <category><![CDATA[Блог компании PVS-Studio]]></category><category><![CDATA[C#]]></category><category><![CDATA[Системы сборки]]></category><category><![CDATA[DevOps]]></category>
+      <category><![CDATA[gitlab]]></category><category><![CDATA[c#]]></category><category><![CDATA[ci]]></category><category><![CDATA[continuous integration]]></category><category><![CDATA[devops]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Обзор на статью Visual Transformers — новый подход к тренировке моделей компьютерного зрения на основе visual tokens]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512258/</guid>
+      <link>https://habr.com/ru/post/512258/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512258</link>
+      <description><![CDATA[Эта<a href="https://arxiv.org/abs/2006.03677" rel="nofollow"> работа</a> интересна тем, что авторы в ней предлагают новый подход к тренировке моделей на изображениях — использовать не только пиксели и конволюции, но ещё и представлять изображения в виде визуальных токенов и тренировать на них трансформеры. По сравнению с использованием просто архитектуры ResNet предложенный подход уменьшает MAC (multiply and accumulate operations) в 6,9 раз и увеличивает топ-1 точность на 4,53 пункта на задаче классификации ImageNet. <br>
+<br>
+<img src="https://habrastorage.org/webt/f-/4t/et/f-4tetfyykkqxhvg_3sebmuxy28.png" alt="image"><br> <a href="https://habr.com/ru/post/512258/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512258#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 07:07:11 GMT</pubDate>
+      <dc:creator>Artgor</dc:creator>
+      <category><![CDATA[Блог компании МТС]]></category><category><![CDATA[Алгоритмы]]></category><category><![CDATA[Машинное обучение]]></category><category><![CDATA[Искусственный интеллект]]></category><category><![CDATA[IT-компании]]></category>
+      <category><![CDATA[мтс]]></category><category><![CDATA[deep learning]]></category><category><![CDATA[transformers]]></category><category><![CDATA[semantic segmentation]]></category><category><![CDATA[computer vision]]></category><category><![CDATA[ии]]></category><category><![CDATA[машинное обучение]]></category><category><![CDATA[нейронные сети]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Легко ли работать на производстве печатных плат?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512360/</guid>
+      <link>https://habr.com/ru/post/512360/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512360</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/ay/lv/b4/aylvb4zsw1cv0fmlkvtxw8q-kjk.jpeg"><br>
+Один из самых популярных вопросов, интересующих нынешних выпускников: «Легко ли быть технологом, конструктором или инженером на производстве печатных плат?» Казалось бы, все расскажут в процессе обучения, а покажут — на производственных практиках. Но мы с коллегами сходимся во мнении, что определенно нет. Чтобы успешно работать <a href="https://tehnoteh.ru/?utm_source=habr&amp;utm_content=material_1" rel="nofollow">на промышленном производстве электроники</a>, надо знать такие тонкости, которым не обучают в университете. Поэтому я и решил делиться своим опытом и опытом моих коллег здесь.<br>
+<br>
+Но сначала стоит разобраться, с чего же начинается печатная плата. Прежде, чем конструктор предложит свою идею, а технологи запустят начальный этап производства, необходимо определить, из какого материала мы будем делать печатную плату.<br>
+<br>
+Наиболее популярный сейчас материал для производства печатной платы — фольгированный стеклотекстолит, имеющий структуру слоеного пластика, в котором волокна чередуются с полимерным связующим веществом. Вариантов такого связующего вещества также может быть несколько: бакелит, эпоксидная и полиэфирная смолы. У каждого материала есть свои преимущества, но о них напишу как-нибудь позже.<br>
+<br> <a href="https://habr.com/ru/post/512360/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512360#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 11:28:43 GMT</pubDate>
+      <dc:creator>tehnoteh</dc:creator>
+      <category><![CDATA[Производство и разработка электроники]]></category><category><![CDATA[Электроника для начинающих]]></category>
+      <category><![CDATA[печатная плата]]></category><category><![CDATA[стеклотекстолит]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Будущее шпионажа. Беспроводная видеокамера на спине жука транслирует видео на 120 метров]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512356/</guid>
+      <link>https://habr.com/ru/post/512356/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512356</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/7v/xh/ow/7vxhowsdmpnpestseyxu3ex8pfe.jpeg"><br>
+<br>
+Исследователи из школы компьютерных наук и инженерного дела, факультетов электротехники и инженерии Вашингтонского университета в Сиэтле разработали <a href="https://robotics.sciencemag.org/content/5/44/eabb0839.full" rel="nofollow">концептуальный проект видеокамеры весом 248 мг</a> (плюс батарейка 0,5 г), которая укрепляется на спине жука или микророботе.<br>
+<br>
+Чёрно-белое видео 1−5 fps с разрешением до 160×120 px передаётся по Bluetooth на расстояние до 120 метров. Объектив поворачивается на 60°. Управление со смартфона.<br>
+<br>
+Ранее учёные проводили опыты по дистанционному управлению <a href="https://www.frontiersin.org/articles/10.3389/neuro.07.024.2009/full" rel="nofollow">жуками (2009)</a>, <a href="https://www.wired.com/2008/04/video-cyborg-mo/#previouspost" rel="nofollow">молью (2008)</a> и <a href="https://ibionics.ece.ncsu.edu/assets/EMBC_12.pdf" rel="nofollow">тараканами (2012)</a> путём стимулирования мозга электродами, так что это очень перспективная смежная разработка. Фактически, сейчас для радиоуправляемых насекомых сделали камера-модуль.<br> <a href="https://habr.com/ru/post/512356/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512356#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 11:17:39 GMT</pubDate>
+      <dc:creator>GlobalSign_admin</dc:creator>
+      <category><![CDATA[Блог компании GlobalSign]]></category><category><![CDATA[DIY или Сделай сам]]></category><category><![CDATA[Видеотехника]]></category><category><![CDATA[Носимая электроника]]></category><category><![CDATA[Производство и разработка электроники]]></category>
+      <category><![CDATA[киберпанк]]></category><category><![CDATA[шпионаж]]></category><category><![CDATA[видеонаблюдение]]></category><category><![CDATA[управляемые насекомые]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[О чём рассказал Илон Маск на конференции «Даёшь Марс!»?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512288/</guid>
+      <link>https://habr.com/ru/post/512288/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512288</link>
+      <description><![CDATA[Привет, Хабр! Пятница – хорошее время для фантазий и размышлений. И сегодня мы предлагаем поразмышлять на тему какие конференции могли бы проводиться в период активного освоения Марса. Почему именно на эту? А почему бы и нет! Кому интересно – присоединяйтесь под катом.<br>
+<br>
+<img src="https://habrastorage.org/webt/w_/wk/0f/w_wk0fu9vz3gz2rly2iieigdnyq.jpeg"><br> <a href="https://habr.com/ru/post/512288/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512288#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 11:00:02 GMT</pubDate>
+      <dc:creator>vdsina_m</dc:creator>
+      <category><![CDATA[Блог компании VDSina.ru — хостинг серверов]]></category><category><![CDATA[Будущее здесь]]></category><category><![CDATA[Научная фантастика]]></category><category><![CDATA[Читальный зал]]></category>
+      <category><![CDATA[юмор на хабре]]></category><category><![CDATA[юмор]]></category><category><![CDATA[юмористическая фантастика]]></category><category><![CDATA[илон маск]]></category><category><![CDATA[марс]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] CRLF-инъекции и HTTP Response Splitting]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512226/</guid>
+      <link>https://habr.com/ru/post/512226/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512226</link>
+      <description><![CDATA[<p><strong><em>Привет, Хабровчане! В преддверии старта занятий в ближайшей группе профессионального курса <a href="https://otus.pw/xSFL/" rel="nofollow">«Безопасность веб-приложений»</a>, мы подготовили для вас еще один полезный перевод.</em></strong></p><br>
+<hr><br>
+<p><img src="https://habrastorage.org/webt/7-/y1/2d/7-y12dlpdb-shacfjvyyyxmrgda.png"></p><br>
+<h2 id="chto-takoe-crlf">Что такое CRLF?</h2><br>
+<p>Когда браузер отправляет запрос веб-серверу, тот отправляет ответ, который содержит заголовки HTTP-ответа и сам контент сайта, то есть тело ответа. HTTP-заголовки и HTML-ответ (содержимое сайта) разделяются определенной комбинацией специальных символов, а именно возвратом каретки (carriage return) и подачей строки (line feed). Сокращается это как CRLF.</p><br>
+<p>Веб-сервер использует CRLF, чтобы понять, где начинается новый HTTP-заголовок и заканчивается старый. Также CRLF может сообщить веб-приложению или пользователю, что новая строка начинается в файле или в блоке текста. Символы CRLF – это стандартное сообщение HTTP/1.1, поэтому оно используется любым типом веб-сервера, включая <a href="https://www.netsparker.com/server-security-software/apache-security-scanner/" rel="nofollow">Apache</a>, Microsoft IIS и другие. </p> <a href="https://habr.com/ru/post/512226/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512226#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Thu, 23 Jul 2020 14:20:47 GMT</pubDate>
+      <dc:creator>vlstrochkov</dc:creator>
+      <category><![CDATA[Блог компании OTUS. Онлайн-образование]]></category><category><![CDATA[Информационная безопасность]]></category><category><![CDATA[Разработка веб-сайтов]]></category>
+      <category>CRLF-инъекции</category><category>HTTP Response Splitting</category><category>web security</category><category>CRLF/HTTP-инъекции</category><category>otus</category><category>безопасность веб-приложений</category>
+    </item>
+
+
+
+  
+
+    <item>
+      <title><![CDATA[[Из песочницы] Пишем свой плагин для VueJS. Как проект на VueJS трансформировать в расширение для браузера?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512188/</guid>
+      <link>https://habr.com/ru/post/512188/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512188</link>
+      <description><![CDATA[<p><img src="https://habrastorage.org/webt/tn/qb/yj/tnqbyjhzdhyoxh8kz98ye52bowc.jpeg"/></p><br/>
+<h2 id="vstuplenie">Вступление</h2><br/>
+<p>В этой статье мы с вами напишем свой собственный плагин для проектов на <em>VueJS</em>, который трансформирует проект в расширение для браузера. Узнаем как изменять правила сборки <em>webpack</em> и генерировать дополнительную структуру файлов и папок.</p><br/>
+<p>Расширения для браузеров часто имеют всплывающие окна, которые появляются при клике на иконку расширения. Во всплывающем окне может быть авторизация, регистрация или управление настройками расширения, а возможно и любая другая логика. Мне показалось очень удобным реализовать всплывающее окно и само расширение на <em>VueJS</em>. Было решено написать плагин для <em>vue-cli</em> который трансформирует существующий проект на <em>VueJS</em> в расширение для браузера. А содержимое проекта будет отображаться во всплывающем окне расширения. Этот плагин уже опробован в реальном проекте по проверке объявлений перекупщиков <a href="https://validauto.ru" rel="nofollow">validauto.ru</a> и расширениях для Google Chrome, Mozilla Firefox и Microsoft Edge &quot;Узнай кто перекуп | (validauto.ru)&quot;</p><br/>
+<h2 id="pishem-plagin-dlya-vue-cli">Пишем плагин для vue-cli</h2><br/>
+<p>Сначала мы создадим папку с именем <strong>vue-cli-plugin-simple-extension</strong>. Префикс <strong>vue-cli-plugin</strong> необходим для автоматического поиска плагина в <em>npm</em> пакетах при вызове команды <em>vue add simple-extension</em>.<br/>
+В папке инициализируем package следующей командой </p><br/>
+<pre><code class="plaintext">npm init</code></pre> <a href="https://habr.com/ru/post/512188/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512188#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Thu, 23 Jul 2020 11:18:58 GMT</pubDate>
+      <dc:creator>romamarkov</dc:creator>
+      <category><![CDATA[JavaScript]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[Расширения для браузеров]]></category><category><![CDATA[VueJS]]></category>
+      <category>javascript</category><category>vue</category><category>расширения браузеров</category><category>vue-cli</category><category>программирование</category>
+    </item>
+
+
+
+
+
+      <item>
+      <title><![CDATA[Чесночно-луковый хостинг: как поднять веб-ресурс, чтобы не отобрали домен]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512318/</guid>
+      <link>https://habr.com/ru/post/512318/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512318</link>
+      <description><![CDATA[<a href="https://habr.com/ru/company/ruvds/blog/512318/"><div style="text-align:center;"><img src="https://habrastorage.org/webt/cp/ou/oi/cpouoi3euo-bzxd2xydjatg2pga.jpeg"></div></a><br>
+<br>
+Дисклеймер: инструменты, описанные здесь абсолютно легальны. Это как нож: кто-то режет капусту в салат, кто-то использует для нападений. Поэтому пост посвящен исключительно инструментам, которые могут использоваться как в хороших, так и не очень целях.<br>
+<br>
+Глобальный DNS — прекрасная вещь, пережившая не одно десятилетие. Но у него есть фундаментальная проблема — ваш домен могут просто разделегировать, если вдруг решат, что вы что-то нарушили. Ну или у кого-то с деньгами и связями будет на вас зуб. Историю того же torrents.ru все помнят. Если по каким-то причинам вы хотите убрать подобные риски — можно посмотреть в сторону оверлейных сетей, у которых просто нет регулятора, способного разделегировать доменное имя. Поэтому будем поднимать onion- и i2p-веб-ресурсы. <a href="https://habr.com/ru/post/512318/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512318#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 09:17:59 GMT</pubDate>
+      <dc:creator>oldadmin</dc:creator>
+      <category><![CDATA[Блог компании RUVDS.com]]></category><category><![CDATA[Децентрализованные сети]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[*nix]]></category><category><![CDATA[I2P]]></category>
+      <category><![CDATA[tor]]></category><category><![CDATA[onion]]></category><category><![CDATA[i2p]]></category><category><![CDATA[DNS]]></category><category><![CDATA[ruvds]]></category><category><![CDATA[дарквеб]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Почтовый переезд: как мы меняли бэкап электронной почты с Acronis на Veeam]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512322/</guid>
+      <link>https://habr.com/ru/post/512322/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512322</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/getpro/habr/post_images/983/f45/45e/983f4545e65fabc3bc7b241e6e73c622.png"></div><br>
+<i>Вы уже теряли важные электронные письма? Помните это ощущение легкого ужаса, нарастающего по мере того, как проваливается попытка за попыткой восстановления? Сделать электронную почту абсолютно неуязвимой вряд ли получится, а вот процесс восстановления облегчить можно. Меня зовут Николай Ляшук, и сегодня я поделюсь опытом адаптации нового инструмента бэкапа корпоративной почты в Linxdatacenter.</i><br>
+<br> <a href="https://habr.com/ru/post/512322/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512322#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 09:46:36 GMT</pubDate>
+      <dc:creator>liklaysh</dc:creator>
+      <category><![CDATA[Блог компании Linxdatacenter]]></category><category><![CDATA[IT-инфраструктура]]></category><category><![CDATA[Резервное копирование]]></category><category><![CDATA[Облачные сервисы]]></category>
+      <category><![CDATA[облачные сервисы]]></category><category><![CDATA[электронная почта]]></category><category><![CDATA[резервирование данных]]></category><category><![CDATA[acronis backup]]></category><category><![CDATA[veeam backup]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Книга «Программируем с PyTorch: Создание приложений глубокого обучения»]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512158/</guid>
+      <link>https://habr.com/ru/post/512158/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512158</link>
+      <description><![CDATA[<a href="https://habr.com/ru/company/piter/blog/512158/"><img src="https://habrastorage.org/webt/yw/la/cw/ywlacwzln0s9f-yo489pjhznpao.jpeg" align="left" alt="image"></a> Привет, Хаброжители! Ян Пойнтер поможет разобраться, как настроить PyTorch в облачной среде, как создавать нейронные архитектуры, облегчающие работу с изображениями, звуком и текстом. Книга охватывает важнейшие концепции применения переноса обучения, модели отладки и использования библиотеки PyTorch. Вы научитесь: — Внедрять модели глубокого обучения в работу — Использовать PyTorch в масштабных проектах — Применять перенос обучения — Использовать PyTorch torchaudio и сверточные модели для классификации аудиоданных — Применять самые современные методы NLP, используя модель, обученную на «Википедии» — Выполнять отладку моделей PyTorch с TensorBoard и флеймграф — Развертывать приложения PyTorch в контейнерах «PyTorch –– это одна из самых быстрорастущих библиотек глубокого обучения, соперничающая с гигантом Google — TensorFlow — практически на равных. <br>
+<br> <a href="https://habr.com/ru/post/512158/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512158#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Thu, 23 Jul 2020 09:03:35 GMT</pubDate>
+      <dc:creator>ph_piter</dc:creator>
+      <category><![CDATA[Блог компании Издательский дом «Питер»]]></category><category><![CDATA[Python]]></category><category><![CDATA[Профессиональная литература]]></category>
+      <category><![CDATA[книга]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Intel застряла. Техпроцесс 7 нм откладывается до конца 2021 — начала 2022 года]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512312/</guid>
+      <link>https://habr.com/ru/post/512312/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512312</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/tc/jd/s2/tcjds2juyi0mjexi2onwem1jcle.jpeg"><br>
+<i><font color="gray">Исполнительный директор Intel Боб Свон</font></i><br>
+<br>
+Корпорация Intel опубликовала <a href="https://www.intc.com/investor-relations/investor-education-and-news/investor-news/press-release-details/2020/Intel-Reports-Second-Quarter-2020-Financial-Results/default.aspx" rel="nofollow">финансовый отчёт за II кв. 2020 года</a>, в котором объявила об очередной задержке с переходом на техпроцесс 7 нм. Планы отложили ещё на шесть месяцев, так что теперь внедрение 7 нм планируется не раньше конца 2021-го — начала 2022 года. В сумме отставание от внутренней дорожной карты Intel выросло до <i>12 месяцев</i>.<br>
+<br>
+Любопытно, что Intel планировала быстро перейти на 7 нм, потому что испытывала проблемы с внедрением техпроцесса 10 нм. Некоторые аналитики высказывают мнение, что в такой ситуации можно думать о переходе сразу на 5 нм.<br> <a href="https://habr.com/ru/post/512312/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512312#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 07:59:16 GMT</pubDate>
+      <dc:creator>Data_center_MIRAN</dc:creator>
+      <category><![CDATA[Блог компании Дата-центр «Миран»]]></category><category><![CDATA[Производство и разработка электроники]]></category><category><![CDATA[Процессоры]]></category>
+      <category><![CDATA[Миран]]></category><category><![CDATA[Miran]]></category><category><![CDATA[Intel]]></category><category><![CDATA[AMD]]></category><category><![CDATA[7 нм]]></category><category><![CDATA[10 нм]]></category><category><![CDATA[Ponte Vecchio]]></category><category><![CDATA[Granite Rapids]]></category><category><![CDATA[Alder Lake]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Применение оконных функций и CTE в MySQL 8.0 для реализации накопительного итога без хаков]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/510686/</guid>
+      <link>https://habr.com/ru/post/510686/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=510686</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/_1/n0/at/_1n0at8jzjzpnd_g3ggrpwgvd6g.png"><br>
+<br>
+<i><b>Прим. перев.</b>: в этой статье тимлид британской компании Ticketsolve делится решением своей весьма специфичной проблемы, демонстрируя при этом общие подходы к созданию так называемых accumulating (накопительных) функций с помощью современных возможностей MySQL 8.0. Его листинги наглядны и снабжены подробными объяснениями, что помогает вникнуть в суть проблематики даже тем, кто не погружался в неё столь глубоко.</i><br>
+<br>
+Обычная стратегия для выполнения обновлений с использованием накопительных функций в MySQL — применение пользовательских переменных и паттерна <code>UPDATE [...] SET mycol = (@myvar := EXPRESSION(@myvar, mycol))</code>.<br>
+<br>
+Этот паттерн плохо работает с оптимизатором (приводя к недетерминированному поведению), поэтому от него решили отказаться. В результате возникла некая пустота, поскольку (относительно) комплексную логику теперь сложнее реализовать (по крайней мере, с той же простотой).<br>
+<br>
+В статье пойдет речь о двух способах ее реализации: с использованием оконных функций (канонический подход) и с помощью рекурсивных СТЕ (общих табличных выражений). <a href="https://habr.com/ru/post/510686/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=510686#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 06:21:19 GMT</pubDate>
+      <dc:creator>n_bogdanov</dc:creator>
+      <category><![CDATA[Блог компании Флант]]></category><category><![CDATA[MySQL]]></category><category><![CDATA[SQL]]></category>
+      <category>mysql</category><category>mysql 8</category><category>накопительный итог</category><category>window functions</category><category>CTE</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[«Конституция» для разработчиков: как страничка на GitHub помогает нам не ругаться уже год]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/512262/</guid>
+      <link>https://habr.com/ru/post/512262/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512262</link>
+      <description><![CDATA[Год назад моя команда выросла: усложнялась бизнес-логика, по сути, мы делились на три подкоманды — в каждой были как новички, так и те, кто работал в компании годами. Подкоманды сфокусировались на своих направлениях, и хотя все пилили биллинг, перестал работать принцип общей зоны ответственности. Да и практики, которые работали у «старичков», не всегда подходили новому коллективу. <br>
+<br>
+<img src="https://habrastorage.org/webt/tu/29/rh/tu29rhhi5v8fdn7vypvk8sgj8qc.jpeg"><br>
+<br>
+Обычно для сплочения команд мы практикуем выезды: ребята, в остальное время работающие на удаленке из своих городов, собираются в одной точке мира. Днем вместе проходят часть спринта, вечером вместе развлекаются. Но сроки поджимали, поэтому мы пошли другим путем. Вот что мы придумали — и <b>кажется, такой подход может использовать любая команда</b>, в которой нет авторитарного управления.<br> <a href="https://habr.com/ru/post/512262/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=512262#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 24 Jul 2020 08:05:01 GMT</pubDate>
+      <dc:creator>Skyeng-Habr</dc:creator>
+      <category><![CDATA[Блог компании Skyeng]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[GitHub]]></category><category><![CDATA[Управление разработкой]]></category><category><![CDATA[Удалённая работа]]></category>
+      <category><![CDATA[договариваемся на удаленке]]></category><category><![CDATA[правила команды на github]]></category><category><![CDATA[решение конфликтов в разработке]]></category><category><![CDATA[командообразование в ит]]></category>
+    </item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>

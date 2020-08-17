@@ -1,0 +1,10 @@
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlBasics/bin/Debug/netcoreapp3.1/XmlBasics.deps.json
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlBasics/bin/Debug/netcoreapp3.1/XmlBasics.runtimeconfig.json
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlBasics/bin/Debug/netcoreapp3.1/XmlBasics.runtimeconfig.dev.json
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlBasics/bin/Debug/netcoreapp3.1/XmlBasics.dll
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlBasics/bin/Debug/netcoreapp3.1/XmlBasics.pdb
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlBasics/obj/Debug/netcoreapp3.1/XmlBasics.csprojAssemblyReference.cache
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlBasics/obj/Debug/netcoreapp3.1/XmlBasics.AssemblyInfoInputs.cache
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlBasics/obj/Debug/netcoreapp3.1/XmlBasics.AssemblyInfo.cs
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlBasics/obj/Debug/netcoreapp3.1/XmlBasics.dll
+/Users/sanya/csharp_study/csharp_source/STEP_classwork/lesson_22/homework/XmlBasics/obj/Debug/netcoreapp3.1/XmlBasics.pdb
